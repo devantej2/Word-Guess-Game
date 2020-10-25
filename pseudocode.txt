@@ -1,0 +1,32 @@
+Theme: Technology
+
+Key Events needed: key press to start game, key press to guess word
+
+Display on Page:
+
+-Press any key to get started!
+-Wins:
+-Guesses Remaining:
+-Letters Already Guessed:
+
+
+Functions:
+
+Start Game
+    User starts with 6 guesses
+    Random word is displayed as ` _ _ _ _` (depends on length of the word)
+
+User guesses a letter
+    If letter is not correct
+        - decrease guesses by 1
+        - display letter in already guessed section
+
+    If letter is correct 
+        - replace `_` with the letter guessed
+        - display letter in already guessed section
+
+User guesses word
+    - Increase wins by 1
+    - Select another random word
+    - Reset guesses Remaining
+    - Clear already guessed letters section
