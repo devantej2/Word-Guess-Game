@@ -30,3 +30,6 @@ User guesses word
     - Select another random word
     - Reset guesses Remaining
     - Clear already guessed letters section
+
+    replace method for string?
+    

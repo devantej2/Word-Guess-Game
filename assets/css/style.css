@@ -6,3 +6,6 @@ body {
 .game {
   background-color: teal;
 }
+.game-stat {
+  text-align: center;
+}
